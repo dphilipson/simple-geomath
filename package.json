@@ -1,0 +1,43 @@
+{
+  "name": "geomath",
+  "version": "0.1.0",
+  "description": "Simple helper functions for spherical geometry",
+  "main": "dist/index.js",
+  "types": "dist/index",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "buildDocs": "typedoc --out docs --mode file --name 'Graphs and Paths' --readme none --module commonjs --target es5 --theme minimal --excludePrivate",
+    "jest": "jest --config jest.json",
+    "jest-watch": "npm run jest -- --watch",
+    "lint": "tslint --project .",
+    "prepublish": "npm run build",
+    "test": "npm run lint && npm run jest",
+    "watch": "npm run clean && tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dphilipson/geomath.git"
+  },
+  "keywords": [
+    "graph",
+    "pathfinding",
+    "shortest",
+    "path",
+    "edge",
+    "dijkstra"
+  ],
+  "author": "David Philipson <dphilipson@gmail.com> (http://dphil.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dphilipson/geomath/issues"
+  },
+  "homepage": "https://github.com/dphilipson/geomath#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
