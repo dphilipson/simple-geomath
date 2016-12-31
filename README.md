@@ -2,6 +2,8 @@
 
 Minimalist library for math involving latitude and longitude.
 
+[![Build Status](https://travis-ci.org/dphilipson/simple-geomath.svg?branch=master)](https://travis-ci.org/dphilipson/simple-geomath)
+
 ## Installation
 
 ```
