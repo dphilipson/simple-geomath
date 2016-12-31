@@ -1,7 +1,7 @@
 {
   "name": "geomath",
   "version": "0.1.0",
-  "description": "Simple helper functions for spherical geometry",
+  "description": "Simple helper functions for math involving latitude and longitude.",
   "main": "dist/index.js",
   "types": "dist/index",
   "files": [
@@ -11,7 +11,7 @@
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
     "buildDocs": "typedoc --out docs --mode file --name 'Graphs and Paths' --readme none --module commonjs --target es5 --theme minimal --excludePrivate",
-    "jest": "jest --config jest.json",
+    "jest": "jest",
     "jest-watch": "npm run jest -- --watch",
     "lint": "tslint --project .",
     "prepublish": "npm run build",
@@ -23,12 +23,10 @@
     "url": "git://github.com/dphilipson/geomath.git"
   },
   "keywords": [
-    "graph",
-    "pathfinding",
-    "shortest",
-    "path",
-    "edge",
-    "dijkstra"
+    "geometry",
+    "spherical",
+    "math",
+    "coordinates"
   ],
   "author": "David Philipson <dphilipson@gmail.com> (http://dphil.me)",
   "license": "MIT",
@@ -37,7 +35,22 @@
   },
   "homepage": "https://github.com/dphilipson/geomath#readme",
   "devDependencies": {
+    "@types/jest": "^16.0.3",
+    "jest": "^18.1.0",
+    "ts-jest": "^18.0.1",
+    "tslint": "^4.2.0",
+    "typedoc": "^0.5.3",
+    "typescript": "^2.1.4"
   },
-  "dependencies": {
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   }
 }
