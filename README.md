@@ -1,11 +1,11 @@
-# Geomath
+# Simple Geomath
 
 Minimalist library for math involving latitude and longitude.
 
 ## Installation
 
 ```
-npm install --save geomath
+npm install --save simple-geomath
 ```
 
 ## API
@@ -14,7 +14,7 @@ npm install --save geomath
 
 ## Sample Usage
 ``` javascript
-import * as Geo from "geomath";
+import * as Geo from "simple-geomath";
 
 const losAngeles = { latitude: 34.0522, longitude: -118.2437 };
 const newYork = { latitude: 40.7128, longitude: -74.0059 };

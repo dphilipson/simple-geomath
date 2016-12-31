@@ -1,5 +1,5 @@
 {
-  "name": "geomath",
+  "name": "simple-geomath",
   "version": "0.1.0",
   "description": "Minimalist library for math involving latitude and longitude.",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "npm run clean && tsc",
-    "buildDocs": "typedoc --out docs --mode file --name 'Graphs and Paths' --readme none --module commonjs --target es5 --theme minimal --excludePrivate",
+    "buildDocs": "typedoc --out docs --mode file --name 'Simple Geomath' --readme none --module commonjs --target es5 --theme minimal --excludePrivate",
     "jest": "jest",
     "jest-watch": "npm run jest -- --watch",
     "lint": "tslint --project .",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/dphilipson/geomath.git"
+    "url": "git://github.com/dphilipson/simple-geomath.git"
   },
   "keywords": [
     "geometry",
@@ -31,9 +31,9 @@
   "author": "David Philipson <dphilipson@gmail.com> (http://dphil.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dphilipson/geomath/issues"
+    "url": "https://github.com/dphilipson/simple-geomath/issues"
   },
-  "homepage": "https://github.com/dphilipson/geomath#readme",
+  "homepage": "https://github.com/dphilipson/simple-geomath#readme",
   "devDependencies": {
     "@types/jest": "^16.0.3",
     "jest": "^18.1.0",
