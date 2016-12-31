@@ -42,6 +42,6 @@ Earth to Cartesian coordinates. As such, there are several limitations:
   recommend you stay away.
 * The 180° longitude line (where longitude switches from +180° to -180°) causes
   problems for the `sphericalDistance` function and for projections. I recommend
-  you stay away from this one too.
+  you stay away from it too.
 
 Copyright © 2016 David Philipson
