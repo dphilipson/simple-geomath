@@ -1,7 +1,7 @@
 {
   "name": "geomath",
   "version": "0.1.0",
-  "description": "Simple helper functions for math involving latitude and longitude.",
+  "description": "Minimalist library for math involving latitude and longitude.",
   "main": "dist/index.js",
   "types": "dist/index",
   "files": [
