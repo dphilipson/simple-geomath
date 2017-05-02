@@ -12,7 +12,7 @@ npm install --save simple-geomath
 
 ## API
 
-[View full documentation](https://dphilipson.github.io/geomath).
+[View full documentation](https://dphilipson.github.io/simple-geomath).
 
 ## Sample Usage
 ``` javascript
@@ -30,7 +30,7 @@ Geo.latLngToCartesian(losAngeles, newYork);
 // and ~740 km south of New York.
 ```
 To see more available functions,
-[view the full documentation](https://dphilipson.github.io/geomath).
+[view the full documentation](https://dphilipson.github.io/simple-geomath).
 
 ## Current Limitations
 
